@@ -10,7 +10,9 @@ class QuickSortTest(TestCase):
         self.assertEqual(seq, sorted_seq)
     
     def test_quick_sort_2(self):
-        self.assertEqual(quicksort(list(), 0, 0), None)
+        seq = list()
+        quicksort(seq, 0, 0)
+        self.assertEqual(seq, list())
     
 if __name__ == '__main__':
     unittest.main()
