@@ -28,5 +28,5 @@ def partition(to_sort, lo, hi):
     
 if __name__ == "__main__":
     to_sort = [1,3,2,0,-1,4,5,1,-2,-3,1,7]
-    (quicksort(to_sort, 0 ,len(to_sort)-1))
+    quicksort(to_sort, 0 ,len(to_sort)-1)
     print(to_sort)
